@@ -1,81 +1,81 @@
 {
-	"inbounds": [{
-		"tag": "v2ray",
-		"port": 8388,
-		"protocol": "vmess",
-		"settings": {
-			"clients": [{
-					"id": "aad38dfc-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3916c-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad392d4-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3969e-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad397f2-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad39978-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad39afe-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad39c48-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad39d74-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3a134-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3a292-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3a3c8-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3a4f4-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3a620-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3a74c-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3a878-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3ac74-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3ade6-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3af80-2893-11e9-b210-d663bd873d93"
-				},
-				{
-					"id": "aad3b11a-2893-11e9-b210-d663bd873d93"
-				}
-			]
-		}
-	}],
-	"outbounds": [{
-		"tag": "direct",
-		"protocol": "freedom",
-		"settings": {
-			"domainStrategy": "UseIP"
-		}
-	}],
-	"log": {
-		"access": "/tmp/v2ray.access",
-		"error": "/tmp/v2ray.error"
-	}
+  "inbounds": [{
+    "tag": "v2ray",
+    "port": 8388,
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+          "id": "aad38dfc-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3916c-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad392d4-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3969e-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad397f2-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad39978-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad39afe-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad39c48-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad39d74-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3a134-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3a292-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3a3c8-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3a4f4-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3a620-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3a74c-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3a878-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3ac74-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3ade6-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3af80-2893-11e9-b210-d663bd873d93"
+        },
+        {
+          "id": "aad3b11a-2893-11e9-b210-d663bd873d93"
+        }
+      ]
+    }
+  }],
+  "outbounds": [{
+    "tag": "direct",
+    "protocol": "freedom",
+    "settings": {
+      "domainStrategy": "UseIP"
+    }
+  }],
+  "log": {
+    "access": "/tmp/v2ray.access",
+    "error": "/tmp/v2ray.error"
+  }
 }
