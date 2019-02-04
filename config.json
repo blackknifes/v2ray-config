@@ -29,7 +29,7 @@
 	}
   }],
   "outbounds": [{
-	"tag": "direct"
+	"tag": "direct",
 	"protocol": "freedom",
 	"settings": {
 		"domainStrategy": "UseIP",
