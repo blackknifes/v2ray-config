@@ -5,6 +5,10 @@
     "protocol": "vmess",
     "streamSettings": {
       "network": "ws",
+	  "security": "tls",
+      "tlsSettings": {
+        "serverName": "www.bknife2019.com"
+      },
       "wsSettings": {
         "path": "/ray"
       }
