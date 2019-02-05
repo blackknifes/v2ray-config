@@ -3,6 +3,12 @@
     "tag": "v2ray",
     "port": 8388,
     "protocol": "vmess",
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+		"path": "/ray"
+      }
+    },
     "settings": {
       "clients": [{
           "id": "aad38dfc-2893-11e9-b210-d663bd873d93"
