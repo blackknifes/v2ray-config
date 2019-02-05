@@ -6,8 +6,13 @@
     "streamSettings": {
       "network": "ws",
       "wsSettings": {
-		"path": "/ray"
+        "path": "/ray"
       }
+    },
+    "allocate": {
+      "strategy": "always",
+      "refresh": 5,
+      "concurrency": 3
     },
     "settings": {
       "clients": [{
